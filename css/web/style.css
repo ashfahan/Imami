@@ -62,7 +62,8 @@ a.navbar-brand img {
 }
 
 .timeline {
-  padding: 0;
+  position: relative;
+  padding: 0 0 0 50px;
   list-style: none;
   position: relative;
   margin-top: 80px;
@@ -75,8 +76,7 @@ a.navbar-brand img {
   content: "";
   width: 3px;
   background-color: #404f6e;
-  left: 45%;
-  margin-left: -50%;
+  left: 25px;
 }
 
 .timeline-panel {
@@ -98,12 +98,11 @@ a.navbar-brand img {
   padding: 6px;
   position: absolute;
   top: 0;
-  left: -7%;
+  left: -25px;
+  transform: translateX(-50%);
   width: 30px;
   height: 30px;
   text-align: center;
-  justify-content: center;
-  margin: auto;
   line-height: 20px;
 }
 
