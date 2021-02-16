@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="css/fluid-utilities.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/web/style.css" type="text/css" />
     <title>Imami</title>
@@ -11,7 +12,7 @@
   <body>
     <header class="container">
       <nav class="navbar navbar-expand-md">
-        <a class="navbar-brand" href="#"><img src="img/web/Logo.png" class="mob-hide" /><img src="img/web/favicon.png" class="mob-show w-70" /></a>
+        <a class="navbar-brand mx-auto mx-md-0 txt-center" href="#"><img src="img/web/Logo.png" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"><img src="img/web/Menu.png" /></span>
         </button>
@@ -35,10 +36,10 @@
       </nav>
     </header>
 
-    <section id="Intoduction" class="mb-5 container">
+    <section id="Intoduction" class="mb-5 container txt-center txt-left@md">
       <div class="row">
-        <div class="col-6">
-          <div class="ml-5 pt-4">
+        <div class="col-24 col-md-6">
+          <div class="ml-md-5 pt-4">
             <h3 class="clr-primary">What is it?</h3>
             <p>The Perfect guide for proper Islamic prayer</p>
             <ul class="bullet-primary">
@@ -48,30 +49,28 @@
               <li>Helps to recite and memorize more of the Quran</li>
               <li>Develops best prayer habits</li>
             </ul>
-            <div class="d-flex">
+            <div class="d-flex justify-center justify-left@md">
               <a href="#" class="mr-3"><img src="img/web/__ios_icon1.png" width="110" height="auro" /></a>
               <a href="#"><img src="img/web/__android_icon1.png" width="110" height="auto" /> </a>
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-24 col-md-6">
           <img src="img/web/__home_screen_phone.png" class="img-fluid" alt="Responsive image" />
         </div>
       </div>
     </section>
 
-    <div class="img-bg">
-      <img src="img/web/Web_bg.png" class="img-fluid" style="height: 270px; width: 100%; margin-top: -180px" />
-    </div>
+    <div class="img-bg" style="background-image: url(img/web/Web_bg.png)"></div>
 
     <section class="my-5 container">
       <h2 class="clr-primary text-center font-weight-bold">How does it work?</h2>
-      <ul class="timeline col-7 mx-auto">
+      <ul class="timeline is-sm col-24 col-lg-7 mx-auto">
         <li class="position-relative py-4">
           <div class="timeline-badge">1</div>
           <div class="timeline-panel">
             <div class="timeline-heading d-flex">
-              <div class="pr-4"><img src="img/web/__how_1.png" width="100" height="auto" /></div>
+              <div class="pr-4@md"><img src="img/web/__how_1.png" width="100" class="img-fluid" /></div>
               <div class="timeline-title">
                 <label class="f-30"><strong>Create an Account</strong></label>
                 <p>To start you will need fill this information: Personal profile, Select Region, Language</p>
@@ -84,7 +83,7 @@
           <div class="timeline-badge">2</div>
           <div class="timeline-panel">
             <div class="timeline-heading d-flex">
-              <div class="pr-4"><img src="img/web/__how_2.png" width="100" height="auto" /></div>
+              <div class="pr-4@md"><img src="img/web/__how_2.png" width="100" class="img-fluid" /></div>
               <div class="timeline-title">
                 <label class="f-30"><strong>Initial Set Up</strong></label>
                 <div class="row">
@@ -92,17 +91,19 @@
                     <ul class="bullet-primary">
                       <li>Select short or complete Azan</li>
                       <li>Select Imam</li>
-                      <li>Slect Quran audio files</li>
-                      <li>Quran Khitna</li>
-                      <li>Quran random</li>
-                      <li>Juh-30th</li>
-                      <li>Imam selection</li>
-                      <li>Short Soura</li>
+                      <li>
+                        Slect Quran audio files
+                        <br />
+                        Quran Khitna, Quran random, Juh-30th, Imam selection, Short Soura
+                      </li>
                     </ul>
                   </div>
                   <div class="col-lg-5">
                     <ul class="bullet-primary">
-                      <li>Select reading spped Normal or Fast</li>
+                      <li>
+                        Select reading spped <br />
+                        Normal or Fast
+                      </li>
                       <li>Enable/disable the "whisper"</li>
                     </ul>
                   </div>
@@ -117,7 +118,7 @@
           <div class="timeline-badge">3</div>
           <div class="timeline-panel">
             <div class="timeline-heading d-flex">
-              <div class="pr-4"><img src="img/web/__how_3.png" width="100" height="auto" /></div>
+              <div class="pr-4@md"><img src="img/web/__how_3.png" width="100" class="img-fluid" /></div>
               <div class="timeline-title">
                 <label class="f-30"><strong>Daily Salat</strong></label>
                 <ul class="bullet-primary">
@@ -148,13 +149,13 @@
       </ul>
     </section>
 
-    <section class="info-sec" style="padding: 100px 0">
+    <section class="info-sec">
       <div class="text-center"><img class="img-fluid" src="img/web/__app_screen.png" /></div>
     </section>
 
     <section id="features" class="container">
       <h3 class="text-center py-3">Features</h3>
-      <div class="row text-center" id="macy-container">
+      <div class="row text-center mx-1" id="macy-container">
         <div class="feature_box p-3">
           <img class="text-center py-4" src="img/web/__audio_visual.png" />
           <h4 class="features_ul_heading text-center"><strong>Audio &amp; visual</strong></h4>
@@ -324,14 +325,14 @@
     </section>
 
     <footer class="mt-5 pt-5">
-      <div class="container mob-hide">
+      <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-12">
-            <p><img src="img/web/Logo.png" width="150" /></p>
-            <a href="#" class="mr-3"><img src="img/web/__ios_icon1.png" width="110" height="auro" /></a>
-            <a href="#"><img src="img/web/__android_icon1.png" width="110" height="auto" /> </a>
+          <div class="col-lg-4 col-md-12 txt-center txt-left@md">
+            <p><img src="img/web/Logo.png" class="logo" /></p>
+            <a href="#" class="my-2 my-0@md block inline-block@md" class="mr-3"><img src="img/web/__ios_icon1.png" width="110" height="auro" /></a>
+            <a href="#" class="my-2 my-0@md block inline-block@md"><img src="img/web/__android_icon1.png" width="110" height="auto" /> </a>
           </div>
-          <div class="col-lg-8 col-md-12 footer-text-clr text-left">
+          <div class="col-lg-8 col-md-12 footer-text-clr text-left  mob-hide">
             <div class="row">
               <div class="col-lg-4 col-md-12">
                 <p><strong>Company</strong></p>
@@ -372,6 +373,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+
   <script>
     $("#home").addClass("active");
 

@@ -51,14 +51,21 @@ span.navbar-toggler-icon img {
   width: 30px;
   height: auto;
 }
+
 a.navbar-brand img {
   width: 130px;
   height: auto;
 }
 
+.img-bg {
+  height: 150px;
+  width: 100%;
+  margin-top: -180px;
+}
+
 /**app_intro**/
 .clr-primary {
-  color: #ffc400;
+  color: #ffc400 !important;
 }
 
 .timeline {
@@ -149,6 +156,7 @@ a.navbar-brand img {
 }
 
 .info-sec {
+  padding: 100px 0;
   background-image: url(../../img/web/__strip2.png);
   background-position: top;
   background-repeat: no-repeat;
@@ -237,7 +245,24 @@ a.navbar-brand img {
   font-size: 16px;
 }
 
+footer .logo {
+  width: 150px;
+}
+
 @media screen and (max-width: 768px) {
+  a.navbar-brand img {
+    margin-top: 100px;
+    width: 75%;
+  }
+
+  footer .logo {
+    width: 230px;
+  }
+
+  .info-sec {
+    padding: 40px 0;
+  }
+
   .mob-hide {
     display: none;
   }
@@ -302,6 +327,10 @@ a.navbar-brand img {
 }
 
 @media screen and (min-width: 769px) {
+  .img-bg {
+    height: 270px;
+  }
+
   .mob-hide {
     display: block;
   }
