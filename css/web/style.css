@@ -61,10 +61,6 @@ a.navbar-brand img {
   color: #ffc400;
 }
 
-.timeline li {
-  display: inline-block;
-}
-
 .timeline {
   padding: 0;
   list-style: none;
@@ -83,13 +79,13 @@ a.navbar-brand img {
   margin-left: -50%;
 }
 
-.timeline > li {
-  margin-bottom: 20px;
-  position: relative;
-}
-
 .timeline-panel {
   margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.timeline > li:last-child .timeline-panel {
+  margin-bottom: 0;
 }
 
 .timeline-badge {
@@ -111,18 +107,9 @@ a.navbar-brand img {
   line-height: 20px;
 }
 
-.timeline-body {
-  max-width: 500px;
-}
-
 .timeline h3 {
   font-size: 25px;
   font-weight: 500;
-}
-
-.timeline .timeline-body {
-  font-size: 16px;
-  font-weight: 400;
 }
 
 /*****Features****/
