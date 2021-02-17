@@ -126,13 +126,13 @@ a.navbar-brand img {
 
 .features_ul_heading {
   color: #ffc400;
-  font-size: 28px;
   text-align: center;
 }
 
 .feature_box {
   background-color: #0b1d33;
   border-radius: 43px;
+  font-size: 7.5px;
 }
 
 .features li {
@@ -251,6 +251,14 @@ footer .logo {
 }
 
 @media screen and (max-width: 768px) {
+  .h-35px {
+    height: 35px;
+  }
+
+  .features_ul_heading {
+    font-size: 1rem;
+  }
+
   a.navbar-brand img {
     margin-top: 100px;
     width: 75%;
@@ -318,10 +326,6 @@ footer .logo {
     font-size: 20px;
   }
 
-  .features_ul_heading {
-    font-size: 20px;
-  }
-
   .feature-img {
     width: 350px;
   }
@@ -334,6 +338,10 @@ footer .logo {
     margin-top: -280px;
     /* padding-bottom: 0; */
     margin-left: 0;
+  }
+
+  .feature_box {
+    font-size: 1rem;
   }
 
   .mob-hide {
