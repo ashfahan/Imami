@@ -57,13 +57,14 @@ a.navbar-brand img {
   height: auto;
 }
 
+/**app_intro**/
 .img-bg {
-  height: 270px;
-  width: 100%;
+  margin-left: -483px;
+  height: 150px;
   margin-top: -180px;
+  padding-bottom: 235px;
 }
 
-/**app_intro**/
 .clr-primary {
   color: #ffc400 !important;
 }
@@ -327,6 +328,14 @@ footer .logo {
 }
 
 @media screen and (min-width: 769px) {
+  .img-bg {
+    height: 370px;
+    width: 100%;
+    margin-top: -280px;
+    /* padding-bottom: 0; */
+    margin-left: 0;
+  }
+
   .mob-hide {
     display: block;
   }
