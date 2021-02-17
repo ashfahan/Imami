@@ -58,7 +58,7 @@ a.navbar-brand img {
 }
 
 .img-bg {
-  height: 150px;
+  height: 270px;
   width: 100%;
   margin-top: -180px;
 }
@@ -157,7 +157,7 @@ a.navbar-brand img {
 
 .info-sec {
   padding: 100px 0;
-  background-image: url(../../img/web/__strip2.png);
+  background-image: url(../../img/strip2.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -327,10 +327,6 @@ footer .logo {
 }
 
 @media screen and (min-width: 769px) {
-  .img-bg {
-    height: 270px;
-  }
-
   .mob-hide {
     display: block;
   }
